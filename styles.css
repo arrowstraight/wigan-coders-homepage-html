@@ -50,17 +50,41 @@ ul li {
   display: inline !important;
 }
 #changeText {
-    background: #39a2f2;
-    color: #ffffff;
-    text-align: center;
-    margin: 0 !important;
-    padding: 0 !important;
+  background: #fff600;
+  color: #3b3b3b;
+  text-align: center;
+  margin: auto;
+  height: 40px;
+  text-align-last: auto;
+  padding: 5px;
+  font-size: 20px;
+  opacity: 0.9;
 }
-#changeText p {
-    margin: 0 !important;
-    padding: 0 !important;
+
+
+
+#usp {
+  font-weight: bold !important;
 }
 
 .disabled {
   display: none;
 }
+
+/* top content */
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  top: 35%;
+  left: 2%;
+}
+
+img {
+  border-radius: 10px;
+}
+
+
