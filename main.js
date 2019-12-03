@@ -10,7 +10,8 @@ function change() {
     counter = 0;
     // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
   }
+  // element.style.width = "100%"
+
   element.style.textAlign = 'centre';
-  element.style.opacity = 0.9;
   element.classList.toggle('disabled');
 }

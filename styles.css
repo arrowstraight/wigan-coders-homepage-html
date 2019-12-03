@@ -1,5 +1,7 @@
-html {
+html,
+body {
   font-family: "Poppins", sans-serif;
+  width: 100%;
 }
 
 nav {
@@ -7,6 +9,9 @@ nav {
   color: #ffffff;
   height: 100%;
   max-height: 100px;
+  width: 100% !important;
+}
+.nav-content {
   width: 100%;
 }
 ul {
@@ -17,22 +22,23 @@ ul {
 nav a {
   color: #ffffff;
   text-decoration: none;
+  width: 80%;
 }
 
 .slogan li.title {
-  left: 2%;
   color: #ffffff;
   font-size: 28px;
   width: 20%;
   padding: 0 !important;
   margin: 0 !important;
-  position: absolute;
-  top: 4%;
+  position: relative;
+  top: 28px;
+  left: 2%;
 }
 
 div.nav-links ul {
-  top: 6%;
-  position: absolute;
+  top: 28px;
+  position: relative;
   right: 2%;
 }
 
@@ -45,6 +51,7 @@ div.nav-links ul a {
   justify-content: flex-end;
   align-items: center;
   flex-direction: row;
+  width: 100%;
 }
 ul li {
   display: inline !important;
@@ -54,17 +61,12 @@ ul li {
   color: #3b3b3b;
   text-align: center;
   margin: auto;
-  height: 40px;
+  max-height: 40px;
+  height: 100%;
   text-align-last: auto;
   padding: 5px;
   font-size: 20px;
   opacity: 0.9;
-}
-
-
-
-#usp {
-  font-weight: bold !important;
 }
 
 .disabled {
@@ -72,19 +74,92 @@ ul li {
 }
 
 /* top content */
-
-.container {
+.content {
+  position: relative;
+  top: 80px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
-  position: absolute;
-  top: 35%;
-  left: 2%;
+  width: 100%;
+}
+.container img {
+  border-radius: 30px;
+  width: 100%;
+  padding: 20px;
+}
+.container-1 {
+  padding: 0 !important;
 }
 
-img {
-  border-radius: 10px;
+.top-content-p {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  line-height: 35px;
+  font-size: 20px;
 }
 
+.heading h2 {
+  text-align: center !important;
+  font-size: 35px;
+  color: #3b3b3b;
+  padding: 0 !important;
+  margin: 0 !important;
+  position: relative;
+  left: 3%;
+  top: 40px;
+}
 
+.fa-html5 {
+  font-size: 50px;
+}
+.usp-div {
+  height: 50px;
+}
+
+.container-2 {
+  text-align: center;
+  margin-top: 10%;
+}
+.content-2 {
+  background: #cecfd4;
+}
+/* icons */
+.fa-html5 {
+  color: red;
+
+}
+.fa-css3-alt {
+  font-size: 50px;
+  color: blue;
+}
+.fa-js-square {
+  font-size: 50px;
+  color: #fff600;
+
+}
+@media only screen and (max-width: 600px) {
+  .content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  #changeText {
+    font-size: 15px;
+  }
+
+  .slogan li.title {
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+    left: 2%;
+  }
+  .heading h2 {
+    text-align: center;
+    position: relative;
+    left: 3%;
+    top: 40px;
+  }
+}
