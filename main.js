@@ -15,3 +15,7 @@ function change() {
   element.style.textAlign = 'centre';
   element.classList.toggle('disabled');
 }
+setInterval(function () {
+  element.style.opacity = '0.66'
+
+}, 3000)

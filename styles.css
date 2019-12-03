@@ -1,7 +1,7 @@
 html,
 body {
   font-family: "Poppins", sans-serif;
-  width: 100%;
+  width: 100% !important;
 }
 
 nav {
@@ -88,6 +88,9 @@ ul li {
   width: 100%;
   padding: 20px;
 }
+.keyboard {
+  border-radius: 10px;
+}
 .container-1 {
   padding: 0 !important;
 }
@@ -95,6 +98,7 @@ ul li {
 .top-content-p {
   text-align: center;
   width: 100%;
+  max-width: 700px;
   padding: 10px;
   line-height: 35px;
   font-size: 20px;
@@ -116,6 +120,9 @@ ul li {
 }
 .usp-div {
   height: 50px;
+  animation: pulse 6s infinite;
+  width: 100%;
+
 }
 
 .container-2 {
@@ -125,20 +132,77 @@ ul li {
 .content-2 {
   background: #cecfd4;
 }
+.content-2 h2 {
+padding: 20px;
+}
 /* icons */
 .fa-html5 {
   color: red;
-
+  margin: 0 40px;
+  font-size: 70px;
 }
 .fa-css3-alt {
-  font-size: 50px;
+  font-size: 70px;
   color: blue;
-}
-.fa-js-square {
-  font-size: 50px;
-  color: #fff600;
+  margin: 0 40px;
 
 }
+.fa-js-square {
+  font-size: 70px;
+  color: #fff600;
+  margin: 0 40px;
+
+}
+.icons {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.icons-span {
+  display: block !important;
+}
+.icons-div {
+  text-align: center;
+}
+
+.icon-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icon-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icon-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pulsate {
+  -webkit-animation: pulsate 3s ease-out;
+  -webkit-animation-iteration-count: infinite; 
+  opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+  0% { 
+      opacity: 0.5;
+  }
+  50% { 
+      opacity: 1.5;
+  }
+  100% { 
+      opacity: 0.5;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .content {
     display: flex;
