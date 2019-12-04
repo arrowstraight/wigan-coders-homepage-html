@@ -2,6 +2,7 @@ html,
 body {
   font-family: "Poppins", sans-serif;
   width: 100% !important;
+  max-width: 100%;
 }
 
 nav {
@@ -104,16 +105,17 @@ ul li {
   line-height: 35px;
   font-size: 20px;
 }
-
+/*  content 2 */
 .heading h2 {
   text-align: center !important;
   font-size: 35px;
   color: #3b3b3b;
   padding: 0 !important;
-  margin: 0 !important;
   position: relative;
   left: 3%;
   top: 40px;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
 .fa-html5 {
@@ -127,7 +129,7 @@ ul li {
 
 .container-2 {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 20%;
 }
 .content-2 {
   background: #cecfd4;
@@ -140,6 +142,25 @@ ul li {
 }
 .content-2 h2 {
   padding: 20px;
+}
+/*  content 3 */
+.content-3 {
+  background: #e8ebfc;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 20px;
+}
+.content-3 h2 {
+  padding: 30px;
+  font-size: 34px;
+}
+/* content 4 */
+.content-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 /* icons */
 .fa-html5 {
@@ -195,54 +216,55 @@ ul li {
   width: 100%;
   max-width: 650px;
 }
+/* footer */
 footer {
   background: #3b3b3b;
   color: #ffffff;
   height: 100%;
-  max-height: 80px;
+  max-height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
-    top: 70px;
+  top: 70px;
 }
 .copyright {
   text-align: left;
-  position: relative;
   left: 10px;
-  top: 37px;
 }
-.content-3 {
-  background: #e8ebfc;
-  text-align: center;
-  margin-top: 10%;
-  padding: 20px;
+.footer-ul {
+  margin-top: 35px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
-.content-3 h2 {
-  padding: 30px;
-  font-size: 34px;
+.footer-ul li {
+  padding: 5px;
+  color: #3b3b3b;
+  background: #cecfd4;
+  border-radius: 20px;
 }
 .services {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  width: 100%;
+  padding: 30px;
 }
 .fa-user-friends {
   font-size: 50px;
   color: #9ebaf7;
-
 }
 .fa-ticket-alt {
   font-size: 50px;
   color: #9ebaf7;
-
 }
 .fa-trophy {
   font-size: 50px;
   color: #9ebaf7;
-
 }
 .support {
   padding: 20px;
@@ -257,7 +279,6 @@ footer {
   background: #cecfd4;
   margin: 0 5px;
   border-radius: 10px;
-
 }
 .achieve {
   padding: 20px;
@@ -265,16 +286,53 @@ footer {
   background: #cecfd4;
   margin: 0 5px;
   border-radius: 10px;
-
 }
+
+/*  slider */
+.mySlides {
+  display: none;
+}
+.img-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: #a4a5a0;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  /* left: 488px; */
+  border-radius: 10px;
+}
+.img-slider img {
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.75);
+  width: 100%;
+}
+.button1 {
+  padding: 10px;
+  position: relative;
+  right: 185px;
+}
+.button2 {
+  padding: 10px;
+  position: relative;
+  left: 185px;
+  bottom: 35px;
+}
+
+/* blobs */
 .the-blobs {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   padding: 10px;
-  position: relative;
-  top: 60px;
+  margin-top: 10%;
 }
 .blob {
   background: black;
@@ -290,21 +348,21 @@ footer {
 
 @keyframes pulse {
   0% {
-      transform: scale(0.95);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
   }
 
   70% {
-      transform: scale(1);
-      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
   }
 
   100% {
-      transform: scale(0.95);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
-
+/* pulsing text */
 .pulsate {
   -webkit-animation: pulsate 2s ease-out;
   -webkit-animation-iteration-count: infinite;
