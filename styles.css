@@ -15,6 +15,12 @@ nav {
 .nav-content {
   width: 100%;
 }
+.slogan h2 {
+  text-align: center !important;
+  position: relative;
+  top: 20px;
+  font-size: 35px;
+}
 ul {
   padding: 0 !important;
   margin: 0 !important;
@@ -43,17 +49,6 @@ div.nav-links ul {
   right: 2%;
 }
 
-div.nav-links ul a {
-  padding: 10px;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-direction: row;
-  width: 100%;
-}
 ul li {
   display: inline !important;
 }
@@ -112,7 +107,6 @@ ul li {
   color: #3b3b3b;
   padding: 0 !important;
   position: relative;
-  left: 3%;
   top: 40px;
   margin-top: 30px;
   margin-bottom: 60px;
@@ -129,7 +123,7 @@ ul li {
 
 .container-2 {
   text-align: center;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 .content-2 {
   background: #cecfd4;
@@ -147,8 +141,8 @@ ul li {
 .content-3 {
   background: #e8ebfc;
   text-align: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   padding: 20px;
 }
 .content-3 h2 {
@@ -221,38 +215,40 @@ footer {
   background: #3b3b3b;
   color: #ffffff;
   height: 100%;
-  max-height: 150px;
+  max-height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
   top: 70px;
+  padding: 10px;
 }
 .copyright {
-  text-align: left;
-  left: 10px;
+  text-align: center;
+  position: relative;
+  top: 130px;
 }
-.footer-ul {
-  margin-top: 35px !important;
+footer i {
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+.footer-content {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: row;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+  top: 10%;
 }
-.footer-ul li {
-  padding: 5px;
-  color: #3b3b3b;
-  background: #cecfd4;
-  border-radius: 20px;
-}
+
 .services {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   width: 100%;
-  padding: 30px;
 }
 .fa-user-friends {
   font-size: 50px;
@@ -298,10 +294,10 @@ footer {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background: #a4a5a0;
+  background: #d7dbdd;
   padding: 20px;
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   position: relative;
   /* left: 488px; */
   border-radius: 10px;
@@ -317,13 +313,58 @@ footer {
   padding: 10px;
   position: relative;
   right: 185px;
+  top: 25px;
 }
 .button2 {
   padding: 10px;
   position: relative;
   left: 185px;
-  bottom: 35px;
+  bottom: 10px;
 }
+/* social icons */
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 40px;
+
+}
+
+.fa-instagram {
+  color: #D82C7B;
+}
+.fa-twitter {
+  color: #39a2f2;
+}
+.social-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 175px;
+  right: 600px;
+  width: 100%;
+  max-width: 150px;
+}
+/* map */
+
+.map {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  float: right;
+  width: 10%;
+  position: relative;
+  left: 40%;
+  bottom: 40px;
+}
+/* social media */
+
+
 
 /* blobs */
 .the-blobs {
@@ -335,7 +376,7 @@ footer {
   margin-top: 10%;
 }
 .blob {
-  background: black;
+  background: #a4a5a0;
   border-radius: 50%;
   margin: 10px;
   height: 20px;
@@ -430,5 +471,17 @@ footer {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+  }
+  .map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    left: 1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
   }
 }
