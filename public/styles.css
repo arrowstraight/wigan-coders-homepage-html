@@ -440,6 +440,38 @@ footer i {
     opacity: 0.5;
   }
 }
+@media only screen and (max-width: 1200px) {
+  footer {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 600px;
+  }
+  .social-links {
+    position: relative;
+    left: 2px;
+    top: 10px;
+    padding: 10px;
+  }
+  .copyright {
+    margin-top: 140px;
+  }
+  .map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    left: 1%;
+    bottom: 130px;
+
+  }
+  .email {
+    position: relative;
+    left: 7px;
+    top: 5px;
+  }
+}
 @media only screen and (max-width: 850px) {
   .content {
     display: flex;
