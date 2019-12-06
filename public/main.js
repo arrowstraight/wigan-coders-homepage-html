@@ -40,3 +40,16 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+// lightbox popup
+ var popup = document.querySelector('.popup-wrapper');
+ var popupTimer = document.querySelector('.popup')
+ var close = document.querySelector('.popup-close');
+
+var popupTimer = setInterval(function () {
+popup.style.display = 'block';
+}, 25000);
+
+close.addEventListener('click', () => {
+popup.style.display = 'none';
+});

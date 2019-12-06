@@ -384,7 +384,33 @@ footer i {
 }
 /* social media */
 
+/* popup lightbox */
 
+.popup-wrapper {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.popup {
+  font-family: arial;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 10% auto;
+  padding: 20px;
+  background: #ffffff;
+  position: relative;
+
+}
+.popup-close {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  cursor: pointer;
+}
 
 /* blobs */
 .the-blobs {
