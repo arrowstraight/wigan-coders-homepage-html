@@ -3,8 +3,8 @@ body {
   font-family: "Poppins", sans-serif;
   width: 100% !important;
   max-width: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 nav {
@@ -108,8 +108,6 @@ ul li {
   font-size: 35px;
   color: #3b3b3b;
   padding: 0 !important;
-  position: relative;
-  top: 40px;
   margin-top: 30px;
   margin-bottom: 60px;
 }
@@ -300,7 +298,6 @@ footer i {
   flex-direction: column;
   text-align: center;
   background: #d7dbdd;
-  padding: 20px;
   width: 100%;
   position: relative;
   /* left: 488px; */
@@ -482,13 +479,13 @@ footer i {
     left: 2%;
   }
   .slogan h2 {
-    font-size: 28px;
+    font-size: 36px;
   }
   .heading h2 {
     text-align: center;
     position: relative;
-    left: 3%;
-    top: 40px;
+    top: 20px;
+ 
   }
   .icons {
     width: 80%;
@@ -548,7 +545,19 @@ footer i {
 
   }
   .container-1 h2 {
-    font-size: 25px;
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+  }
+  .together {
+    margin-bottom: 5%;
+  }
+  .support {
+    margin-bottom: 5%;
+
+  }
+  .content-4 h2 {
+    font-size: 20px;
   }
 
 }
