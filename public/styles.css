@@ -233,6 +233,7 @@ footer {
   position: relative;
   top: 70px;
   padding: 10px;
+  z-index: 1;
 }
 .copyright {
   text-align: center;
@@ -412,7 +413,8 @@ footer i {
   background: #ffffff;
   position: relative;
   border-radius: 10px;
-  top: 49px;
+  top: 40px;
+  z-index: 1;
 }
 .popup-close {
   position: absolute;
