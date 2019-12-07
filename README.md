@@ -3,5 +3,5 @@
 ### deployed with Firebase
 
 ```
-[wigan-coders.co.uk](wigan-coders.co.uk)
+[wigan-coders.co.uk](https://wigan-coders.co.uk)
 ```
