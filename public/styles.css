@@ -22,7 +22,7 @@ nav {
   padding: 0 !important;
   margin: 0 !important;
   position: relative;
-  bottom: 30px;
+  bottom: 28px;
 }
 .slogan h2 {
   text-align: center !important;
@@ -669,6 +669,7 @@ footer i {
     }
     .popup {
       max-width: 250px;
+      max-height: 380px;
     }
   }
 
