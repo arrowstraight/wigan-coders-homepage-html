@@ -2,6 +2,4 @@
 
 ### deployed with Firebase
 
-```
-[wigan-coders.co.uk](https://wigan-coders.co.uk)
-```
+[wigan-coders](wigan-coders.co.uk)
