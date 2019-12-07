@@ -63,7 +63,7 @@ ul li {
 }
 #changeText {
   background: #fff600;
-  color: #3b3b3b;
+  color: #000000;
   text-align: center;
   margin: auto;
   max-height: 40px;
@@ -437,6 +437,17 @@ footer i {
 #date {
   color: red;
   font-weight: bold;
+}
+
+/* text animation */
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
 }
 
 /* blobs */
