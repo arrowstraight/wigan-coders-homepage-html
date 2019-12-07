@@ -450,6 +450,25 @@ footer i {
   line-height: 1em;
 }
 
+.ml7 {
+  position: relative;
+  font-weight: 900;
+  font-size: 15px;
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
 /* blobs */
 .the-blobs {
   display: flex;
