@@ -670,8 +670,13 @@ footer i {
       max-width: 90%;
     }
     .popup {
+      margin-top: 110px;
       max-width: 250px;
       max-height: 380px;
+    }
+    .title-p {
+      position: relative;
+      top: 1px;
     }
   }
 
