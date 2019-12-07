@@ -302,6 +302,7 @@ footer i {
   position: relative;
   /* left: 488px; */
   border-radius: 10px;
+  padding: 10px;
 }
 .img-slider img {
   border-radius: 10px;
@@ -320,7 +321,7 @@ footer i {
   padding: 10px;
   position: relative;
   left: 185px;
-  bottom: 10px;
+  bottom: 12px;
 }
 /* social icons */
 
@@ -404,7 +405,7 @@ footer i {
   background: #ffffff;
   position: relative;
   border-radius: 10px;
-  top: 50px;
+  top: 49px;
 }
 .popup-close {
   position: absolute;
