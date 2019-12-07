@@ -48,7 +48,7 @@ function showDivs(n) {
 
 var popupTimer = setInterval(function () {
 popup.style.display = 'block';
-}, 25000);
+}, 30000);
 
 close.addEventListener('click', () => {
 popup.style.display = 'none';
@@ -56,26 +56,26 @@ popup.style.display = 'none';
 
 // clock
 
-const clock = document.querySelector('.clock');
+// const clock = document.querySelector('.clock');
 
-const tick = () => {
-  const now = new Date();
+// const tick = () => {
+//   const now = new Date();
 
-  const h = now.getHours();
-  const m = now.getMinutes();
-  const s = now.getSeconds();
+//   const h = now.getHours();
+//   const m = now.getMinutes();
+//   const s = now.getSeconds();
 
-  const html = `
-  '<span>${h}</span>
-  '<span>${m}</span>
-  '<span>${s}</span>
+//   const html = `
+//   '<span>${h}</span>
+//   '<span>${m}</span>
+//   '<span>${s}</span>
 
-  `;
-  clock.innerHTML = html;
+//   `;
+//   clock.innerHTML = html;
 
 
-};
-setInterval(tick, 1000);
+// };
+// setInterval(tick, 1000);
 
 // countdown timer
 
@@ -108,3 +108,12 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
+// navbar date
+
+// const date = new Date();
+
+// const today = date.dateFns.format(now, "dddd Do MMMM YYYY");
+
+// console.log(today);
