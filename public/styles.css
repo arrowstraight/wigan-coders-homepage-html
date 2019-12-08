@@ -236,7 +236,7 @@ footer {
 .copyright {
   text-align: center;
   position: relative;
-  top: 100px;
+  top: 80px;
 }
 footer i {
   margin-right: 20px;
@@ -495,6 +495,14 @@ footer i {
   transform: scale(1);
   animation: pulse 2s infinite;
 }
+.newsletter {
+  position: relative;
+  bottom: 60px;
+}
+.newsletter a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 @keyframes pulse {
   0% {
@@ -541,9 +549,9 @@ footer i {
     top: 10px;
     padding: 10px;
   }
-  .copyright {
+  /* .copyright {
     margin-top: 140px;
-  }
+  } */
   .map {
     display: flex;
     justify-content: center;
@@ -669,7 +677,7 @@ footer i {
       width: 100%;
       position: relative;
       left: 1%;
-      bottom: 130px;
+      bottom: 100px;
     }
     footer {
       width: 100% !important;
@@ -684,6 +692,8 @@ footer i {
     }
     .copyright {
       margin-top: 140px;
+      position: relative;
+      top: 150px;
     }
     .button1 {
       position: relative;
@@ -714,6 +724,10 @@ footer i {
       position: relative;
       left: 7px;
       top: 5px;
+    }
+    .email-blog {
+      position: relative;
+      top: 70px;
     }
     .img-slider {
       display: flex;
