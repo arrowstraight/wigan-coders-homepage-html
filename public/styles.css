@@ -374,13 +374,57 @@ footer i {
   flex-direction: row;
   position: relative;
   top: 77px;
-
 }
 .blog {
   margin-left: 30px;
+}
+.suggest {
+  margin-top: 10%;
+}
+.suggest-content {
+  text-align: center;
+}
+.websites {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.udemy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 10px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+.udemy h3 {
+  color: #ff0000;
+}
+.free-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 10px;
+  border: 1px solid #000000;
+  text-align: center;
 
 }
+.free-code h3 {
+  color: #2F6214;
+}
+.code-acad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 10px;
+  border: 1px solid #000000;
+  text-align: center;
 
+}
 
 /* map */
 
@@ -481,7 +525,6 @@ footer i {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  padding: 10px;
   margin-top: 10%;
 }
 .blob {
@@ -498,6 +541,7 @@ footer i {
 .newsletter {
   position: relative;
   bottom: 60px;
+  right: 20px;
 }
 .newsletter a {
   text-decoration: none;
@@ -537,7 +581,7 @@ footer i {
     opacity: 0.5;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1100px) {
   footer {
     width: 100% !important;
     height: auto !important;
@@ -549,9 +593,10 @@ footer i {
     top: 10px;
     padding: 10px;
   }
-  /* .copyright {
-    margin-top: 140px;
-  } */
+  .copyright {
+    position: relative;
+    top: 190px;
+  }
   .map {
     display: flex;
     justify-content: center;
@@ -560,7 +605,7 @@ footer i {
     width: 100%;
     position: relative;
     left: 1%;
-    bottom: 130px;
+    bottom: 50px;
   }
   .email {
     position: relative;
@@ -568,14 +613,13 @@ footer i {
     top: 5px;
   }
   .email-blog {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
     position: relative;
     top: 17px;
-    left: 12px;
-  
+    left: 10px;
+  }
+  .newsletter {
+    position: relative;
+    bottom: 90px;
   }
 }
 @media only screen and (max-width: 850px) {
@@ -621,7 +665,6 @@ footer i {
     flex-direction: row;
     position: relative;
     top: 17px;
-  
   }
 
   @media only screen and (max-width: 600px) {
