@@ -501,6 +501,8 @@ footer i {
 }
 .slogan p {
   text-align: center;
+  position: relative;
+  bottom: 17px;
 }
 
 .ml7 {
