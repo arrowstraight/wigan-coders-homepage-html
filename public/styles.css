@@ -499,6 +499,9 @@ footer i {
   display: inline-block;
   line-height: 1em;
 }
+.slogan p {
+  text-align: center;
+}
 
 .ml7 {
   position: relative;
