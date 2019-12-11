@@ -563,6 +563,8 @@ footer i {
   padding: 10px;
   color: #ffffff;
   margin: 10px;
+  border: none;
+  border-radius: 10px;
 }
 .udemy-btn {
   background: red;
@@ -572,6 +574,10 @@ footer i {
 }
 .free-btn {
   background: #2F6214;
+}
+.box {
+  padding: 10px;
+  margin: 5px;
 }
 
 @keyframes pulse {
