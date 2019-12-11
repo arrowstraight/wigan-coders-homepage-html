@@ -381,9 +381,13 @@ footer i {
 .suggest {
   margin-top: 10%;
 }
-.suggest-content {
+/* .suggest-content {
   text-align: center;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+} */
 .websites {
   display: flex;
   justify-content: space-around;
@@ -548,9 +552,26 @@ footer i {
   bottom: 60px;
   right: 20px;
 }
+.suggest {
+  text-align: center;
+}
 .newsletter a {
   text-decoration: none;
   color: #ffffff;
+}
+.suggest button {
+  padding: 10px;
+  color: #ffffff;
+  margin: 10px;
+}
+.udemy-btn {
+  background: red;
+}
+.code-btn {
+  background: #000000;
+}
+.free-btn {
+  background: #2F6214;
 }
 
 @keyframes pulse {
@@ -626,6 +647,12 @@ footer i {
     position: relative;
     bottom: 90px;
   }
+  .websites {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 @media only screen and (max-width: 850px) {
   .content {
@@ -670,6 +697,12 @@ footer i {
     flex-direction: row;
     position: relative;
     top: 17px;
+  }
+  .websites {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   @media only screen and (max-width: 600px) {
@@ -794,6 +827,12 @@ footer i {
     .title-p {
       position: relative;
       top: 1px;
+    }
+    .websites {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
   }
 
