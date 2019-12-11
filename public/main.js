@@ -48,7 +48,7 @@ function showDivs(n) {
 
 var popupTimer = setInterval(function () {
 popup.style.display = 'block';
-}, 60000);
+}, 120000);
 
 close.addEventListener('click', () => {
 popup.style.display = 'none';
