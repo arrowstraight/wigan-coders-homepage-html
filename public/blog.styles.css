@@ -1,0 +1,32 @@
+.container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+
+.container-heading {
+    text-align: center;
+}
+
+.blog-content {
+    width: 100%;
+    max-width: 600px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    text-align: center !important;
+}
+
+.blog-intro {
+    width: 100%;
+    max-width: 600px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    text-align: center !important;
+
+}
+
