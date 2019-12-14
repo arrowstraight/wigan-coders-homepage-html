@@ -234,7 +234,8 @@ footer {
   top: 70px;
 }
 .copyright {
-  text-align: center;
+  display: flex;
+  justify-content: flex-start;
   position: relative;
   top: 80px;
 }
@@ -378,8 +379,13 @@ footer i {
 .blog {
   margin-left: 30px;
 }
+.blog-p {
+  font-size: 10px;
+}
 .suggest {
   margin-top: 10%;
+  background: #e8ebfc;
+  padding: 10px;
 }
 /* .suggest-content {
   text-align: center;
@@ -441,7 +447,10 @@ footer i {
   width: 10%;
   position: relative;
   left: 40%;
-  bottom: 120px;
+  bottom: 140px;
+}
+.map-div {
+  text-align: center;
 }
 /* social media */
 
@@ -792,7 +801,7 @@ footer i {
     .copyright {
       margin-top: 140px;
       position: relative;
-      top: 150px;
+      top: 200px;
     }
     .button1 {
       position: relative;
