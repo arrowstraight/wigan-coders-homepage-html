@@ -389,6 +389,10 @@ footer i {
   position: relative;
   top: 77px;
 }
+.email {
+  position: relative;
+  bottom: 15px;
+}
 .blog {
   margin-left: 30px;
 }
@@ -669,7 +673,7 @@ footer i {
   .email {
     position: relative;
     left: 7px;
-    top: 5px;
+    top: -13px;
   }
   .email-blog {
     position: relative;
