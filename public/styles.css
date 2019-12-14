@@ -497,7 +497,7 @@ footer i {
   left: 10px;
 }
 /* countdown timer */
-#date {
+.date {
   color: red;
   font-weight: bold;
 }
