@@ -144,6 +144,7 @@ ul li {
 }
 .content-2 h2 {
   padding: 20px;
+  color: #3b3b3b;
 }
 /*  content 3 */
 .content-3 {
@@ -156,6 +157,7 @@ ul li {
 .content-3 h2 {
   padding: 30px;
   font-size: 34px;
+  color: #3b3b3b;
 }
 .container-3 p {
   font-size: 20px;
@@ -166,6 +168,10 @@ ul li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.content-4 h2 {
+  color: #3b3b3b;
+
 }
 /* icons */
 .fa-html5 {
@@ -262,15 +268,17 @@ footer i {
 }
 .fa-user-friends {
   font-size: 50px;
-  color: #000000;
+  color: #3b3b3b;
 }
 .fa-ticket-alt {
   font-size: 50px;
-  color: #000000;
+  color: #3b3b3b;
+  
 }
 .fa-trophy {
   font-size: 50px;
-  color: #000000;
+  color: #3b3b3b;
+  
 }
 .support {
   padding: 20px;
@@ -392,13 +400,10 @@ footer i {
   background: #e8ebfc;
   padding: 10px;
 }
-/* .suggest-content {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-} */
+.suggest-content h2 {
+  color: #3b3b3b;
+
+}
 .websites {
   display: flex;
   justify-content: space-around;
@@ -599,6 +604,8 @@ footer i {
 .suggest-p {
   font-size: 25px;
   font-weight: bold;
+  color: #3b3b3b;
+
 }
 @keyframes pulse {
   0% {
