@@ -323,12 +323,15 @@ footer i {
   position: relative;
   right: 185px;
   top: 25px;
+  border: none;
 }
 .button2 {
   padding: 10px;
   position: relative;
   left: 185px;
   bottom: 12px;
+  border: none;
+
 }
 /* social icons */
 
@@ -807,12 +810,15 @@ footer i {
       position: relative;
       right: 100px;
       font-size: 20px;
+      border: none;
     }
     .button2 {
       position: relative;
       left: 100px;
       font-size: 20px;
       bottom: 24px;
+      border: none;
+
     }
     .container-1 h2 {
       font-size: 32px;
