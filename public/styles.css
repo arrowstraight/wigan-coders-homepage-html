@@ -133,7 +133,7 @@ ul li {
   margin-top: 10%;
 }
 .content-2 {
-  background: #e8ebfc;
+  background: #e6e8e1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,7 +148,7 @@ ul li {
 }
 /*  content 3 */
 .content-3 {
-  background: #e8ebfc;
+  background: #e6e8e1;
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -244,7 +244,7 @@ footer {
   display: flex;
   justify-content: flex-start;
   position: relative;
-  top: 80px;
+  top: 105px;
 }
 footer i {
   margin-right: 20px;
@@ -283,21 +283,21 @@ footer i {
 .support {
   padding: 20px;
   width: 100%;
-  background: #c9dbe9;
+  background: #e6e8e1;
   margin: 0 5px;
   border-radius: 10px;
 }
 .together {
   padding: 20px;
   width: 100%;
-  background: #c9dbe9;
+  background: #e6e8e1;
   margin: 0 5px;
   border-radius: 10px;
 }
 .achieve {
   padding: 20px;
   width: 100%;
-  background: #c9dbe9;
+  background: #e6e8e1;
   margin: 0 5px;
   border-radius: 10px;
 }
@@ -312,7 +312,7 @@ footer i {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background: #e8ebfc;
+  background: #e6e8e1;
   width: 100%;
   max-width: 30%;
   position: relative;
@@ -401,7 +401,7 @@ footer i {
 }
 .suggest {
   margin-top: 10%;
-  background: #e8ebfc;
+  background: #e6e8e1;
   padding: 10px;
 }
 .suggest-content h2 {
@@ -422,6 +422,7 @@ footer i {
   margin: 0 10px;
   border: 1px solid #000000;
   text-align: center;
+  background: aliceblue;
 }
 .udemy h3 {
   color: #ff0000;
@@ -434,6 +435,8 @@ footer i {
   margin: 0 10px;
   border: 1px solid #000000;
   text-align: center;
+  background: aliceblue;
+
 
 }
 .free-code h3 {
@@ -447,6 +450,8 @@ footer i {
   margin: 0 10px;
   border: 1px solid #000000;
   text-align: center;
+  background: aliceblue;
+
 
 }
 
