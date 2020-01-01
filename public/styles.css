@@ -88,14 +88,15 @@ ul li {
   flex-direction: row;
   width: 100%;
 }
+
 .container img {
-  border-radius: 30px;
   width: 100%;
   padding: 20px;
 }
 .keyboard {
-  border-radius: 10px;
+  border-radius: 5%;
   width: 100%;
+  padding: 10px;
 }
 .container-1 {
   padding: 0 !important;
