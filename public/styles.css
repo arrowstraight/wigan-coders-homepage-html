@@ -103,8 +103,7 @@ ul li {
 
 .keyboard {
     border-radius: 5%;
-    width: 50%;
-    padding: 10px;
+    width: 60%;
 }
 
 .container-1 {
@@ -181,7 +180,7 @@ ul li {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
-    padding: 20px;
+    padding: 40px;
     color: #3b3b3b;
 }
 
@@ -472,7 +471,9 @@ footer i {
 }
 
 .blog {
-    margin-left: 30px;
+    margin-left: 70px;
+    position: relative;
+    top: 18px;
 }
 
 .blog-p {
@@ -794,7 +795,7 @@ footer i {
     }
     .email-blog {
         position: relative;
-        top: -3px;
+        top: 1px;
         left: 10px;
     }
     .newsletter {
@@ -1016,6 +1017,10 @@ footer i {
             justify-content: center;
             align-items: center;
             flex-direction: column;
+        }
+        .keyboard {
+            border-radius: 5%;
+            width: 100%;
         }
     }
     .s-footer-links .column {
