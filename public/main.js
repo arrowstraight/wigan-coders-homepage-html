@@ -57,7 +57,7 @@ close.addEventListener('click', () => {
 
 // countdown timer
 // Set the date we're counting down to
-var countDownDate = new Date("jan 25, 2020 10:30:00").getTime();
+var countDownDate = new Date("feb 01, 2020 10:30:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
