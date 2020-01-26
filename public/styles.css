@@ -42,7 +42,11 @@ ul {
 nav a {
     color: #ffffff;
     text-decoration: none;
-    width: 80%;
+    width: 100%;
+}
+
+header {
+    width: 100%;
 }
 
 .slogan li.title {
@@ -113,10 +117,8 @@ ul li {
 .top-content-p {
     text-align: center;
     width: 100%;
-    max-width: 800px;
     height: 100%;
     max-height: 50%;
-    padding: 30px;
     line-height: 35px;
     font-size: 20px;
     color: #000;
@@ -473,7 +475,7 @@ footer i {
 .blog {
     margin-left: 70px;
     position: relative;
-    top: 18px;
+    top: 1px;
 }
 
 .blog-p {
@@ -896,11 +898,12 @@ footer i {
         #changeText {
             font-size: 15px;
         }
+        .keyboard {
+            width: 100%;
+        }
         .slogan li.title {
             font-size: 20px;
-            position: relative;
             top: 25px;
-            left: 2%;
         }
         .slogan h2 {
             font-size: 36px;
@@ -1018,9 +1021,11 @@ footer i {
             align-items: center;
             flex-direction: column;
         }
-        .keyboard {
+        .body>footer>div.email-blog>div.blog {
             border-radius: 5%;
             width: 100%;
+            position: relative;
+            top: 5px;
         }
     }
     .s-footer-links .column {
